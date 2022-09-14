@@ -1,0 +1,42 @@
+{
+  "name": "mbaling-project",
+  "version": "0.0.1",
+  "description": "mBALING is a student housing management system for on-campus housing firms in MSU-Marawi City campus",
+  "productName": "mBALING",
+  "author": "Abdul Moiz Solaiman <solaiman.am85@s.msumain.edu.ph>",
+  "private": true,
+  "scripts": {
+    "icons": "icongenie generate -i Appicon.png"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "bootstrap-icons": "^1.8.1",
+    "core-js": "^3.6.5",
+    "quasar": "^2.0.0",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^3.0.0",
+    "@types/node": "^10.17.15",
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

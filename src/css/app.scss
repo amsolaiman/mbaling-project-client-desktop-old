@@ -1,0 +1,88 @@
+// app global css in SCSS form
+
+/* MAINLAYOUT BASE ICONS */
+@font-face {
+  font-family: 'mbaling-icons';
+  src: url('fonts/mbaling-icons.woff?5a9imj') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mbi-"], [class*=" mbi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mbaling-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mbi-account:before {
+  content: "\e900";
+}
+.mbi-account-fill:before {
+  content: "\e901";
+}
+.mbi-home:before {
+  content: "\e902";
+}
+.mbi-home-fill:before {
+  content: "\e903";
+}
+.mbi-inbox:before {
+  content: "\e904";
+}
+.mbi-inbox-fill:before {
+  content: "\e905";
+}
+.mbi-post:before {
+  content: "\e906";
+}
+.mbi-post-fill:before {
+  content: "\e907";
+}
+.mbi-search:before {
+  content: "\e908";
+}
+.mbi-search-fill:before {
+  content: "\e909";
+}
+
+/* DEFAULT SYSTEM FONTS */
+@font-face {
+  font-family: Metropolis-Regular;
+  src: url(./fonts/metropolis-regular.woff2);
+}
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url(./fonts/metropolis-bold.woff2);
+}
+@font-face {
+  font-family: Metropolis-Semi-Bold;
+  src: url(./fonts/metropolis-semibold.woff2);
+}
+@font-face {
+  font-family: Metropolis-Light;
+  src: url(./fonts/metropolis-light.woff2);
+}
+
+.defaultfont {
+  font-family: "Metropolis-Regular";
+}
+.defaultfont-bold {
+  font-family: "Metropolis-Bold";
+}
+.defaultfont-semibold {
+  font-family: "Metropolis-Semi-Bold";
+}
+.defaultfont-light {
+  font-family: "Metropolis-Light";
+}
+
